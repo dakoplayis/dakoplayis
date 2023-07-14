@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "editor", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
-	Name = "the hub",
+	Name = "editor",
 	Content = "welcome to the hub",
 	Image = "rbxassetid://4483345998",
 	Time = 5
