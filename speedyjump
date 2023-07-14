@@ -1,0 +1,41 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "the hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+OrionLib:MakeNotification({
+	Name = "the hub",
+	Content = "welcome to the hub",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+local Tab = Window:MakeTab({
+	Name = "main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "player modifacations"
+})
+Tab:AddSlider({
+	Name = "player speed",
+	Min = 16,
+	Max = 500,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "speed",
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end    
+})
+Tab:AddSlider({
+	Name = "player jump hight",
+	Min = 50,
+	Max = 350,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "jump",
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+	end    
+})
