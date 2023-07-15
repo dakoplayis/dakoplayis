@@ -1,0 +1,48 @@
+    local scripts = Window:NewTab("scripts")
+    local scriptsSection = scripts:NewSection("Bloxburg Scripts")
+    
+    scriptsSection:NewButton("vysor basic", "launches vysor basic", function() --vysor basic
+        loadstring(game:HttpGet('https://pastebin.com/raw/iq1i0yeg'))()
+    end)
+   
+   --vysor farms
+   
+    scriptsSection:NewButton("vysor pro farm 100k", "launches vysor pro", function() --vysor pro
+        loadstring(game:HttpGet('https://github.com/dakoplayis/dakoplayis/raw/main/100k'))()
+    end)
+ 
+    scriptsSection:NewButton("vysor pro farm 150k", "launches vysor pro", function() --vysor pro
+     loadstring(game:HttpGet('https://github.com/dakoplayis/dakoplayis/raw/main/150k'))()
+    end)
+    scriptsSection:NewButton("vysor pro farm 200k", "launches vysor pro", function() --vysor pro
+        loadstring(game:HttpGet('https://github.com/dakoplayis/dakoplayis/raw/main/200k'))()
+    end)
+    scriptsSection:NewButton("vysor pro farm 250k", "launches vysor pro", function() --vysor pro
+        loadstring(game:HttpGet('https://github.com/dakoplayis/dakoplayis/raw/main/250k'))()
+    end)
+    scriptsSection:NewButton("vysor pro farm 300k", "launches vysor pro", function() --vysor pro
+        loadstring(game:HttpGet('https://github.com/dakoplayis/dakoplayis/raw/main/300k'))()
+    end)
+    scriptsSection:NewButton("vysor pro farm 500k", "launches vysor pro", function() --vysor pro
+        loadstring(game:HttpGet('https://github.com/dakoplayis/dakoplayis/raw/main/500k'))()
+    end)
+
+    scriptsSection:NewButton("vysor pro farm 1 milion", "launches vysor pro", function() --vysor pro
+        loadstring(game:HttpGet('https://github.com/dakoplayis/dakoplayis/raw/main/1m'))()
+    end)
+    scriptsSection:NewButton("vysor pro farm 1.5 milion", "launches vysor pro", function() --vysor pro
+        loadstring(game:HttpGet('https://github.com/dakoplayis/dakoplayis/raw/main/1.5m'))()
+    end)
+
+    scriptsSection:NewButton("vysor pro farm 2 milion", "launches vysor pro", function() --vysor pro
+        loadstring(game:HttpGet('https://github.com/dakoplayis/dakoplayis/raw/main/2m'))()
+    end)
+
+    scriptsSection:NewButton("vysor pro farm 2.5 milion", "launches vysor pro", function() --vysor pro
+        loadstring(game:HttpGet('https://github.com/dakoplayis/dakoplayis/raw/main/2.5m'))()
+    end)
+
+   
+    scriptsSection:NewButton("vysor pro farm unlimited", "launches vysor pro", function() --vysor pro
+        loadstring(game:HttpGet('https://github.com/dakoplayis/dakoplayis/raw/main/unltm'))()
+    end)
