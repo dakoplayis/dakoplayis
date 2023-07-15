@@ -1,4 +1,4 @@
- local Main = Window:NewTab("Main")
+    local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
 
 
