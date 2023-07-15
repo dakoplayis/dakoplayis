@@ -1,0 +1,30 @@
+Vysor = {
+        PrivateServers = {
+            Enabled = false, -- enable/disable joining neighborhoods
+            Codes = { -- enter the codes for the private servers here. add more codes as needed.
+                ""
+            }
+        },
+     
+        RestartSettings = {
+            RestartOnPizzaAmount = false,
+            RestartAtShiftCash = false
+        },
+
+        Safety = {
+            DeliveryDelay = false, -- set to false to disable, otherwise enter a number
+
+            QuitOnCashAmount = false, -- set to false to disable, otherwise enter a number
+            QuitOnPizzaAmount = false, -- set to false to disable otherwise enter a number
+            QuitAtPromotionLevel = false, -- set to false to disable, otherwise enter a number
+            QuitAtShiftCash = 2500000, -- set to false to disable, otherwise enter a cnumber
+        },
+
+        Webhooks = {
+            Webhook = wh ,
+        },
+   
+    }
+
+            script_key =  license 
+            loadstring(game:HttpGet('https://vysor.xyz/pro.lua'))()
